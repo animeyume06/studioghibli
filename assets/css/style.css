@@ -41,6 +41,10 @@ footer {
     cursor: pointer;
 }
 
+#sl-left:hover, #sl-right:hover {
+    cursor: pointer;
+}
+
 #sl-left {
     left: 25px;
 }
