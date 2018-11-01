@@ -62,6 +62,12 @@ $(document).ready(function(){
 
     });
 
+    //fix gallery from jumping around on category select
+    if( $(window).width() > 767 ){
+        var galleryHeight = $('filter-gallery').height();
+        $(#filter-gallery').css({"min-height":galleryHeight+"px"})
+    }
+
 
     // Gallery Tabs
     $('#btn-all').click(function(){
